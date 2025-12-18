@@ -18,8 +18,7 @@ st.set_page_config(layout="wide")
 
 
 # ---- Set your secret API KEY here ----
-VALID_API_KEY = "c6ce28200413a4f4a0858401e7f5470c207d50554210cbbfc984ab0197cd6617"
-# VALID_API_KEY = st.secrets("VALID_API_KEY")
+VALID_API_KEY = st.secrets("VALID_API_KEY")
 
 
 # ---- Read API key from URL params ----
