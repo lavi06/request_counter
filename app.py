@@ -10,9 +10,9 @@ import requests
 # -------------------------
 # Config
 # -------------------------
-FLASK_API_BASE = "https://1grabintel.pythonanywhere.com"  # your running Flask app
+# FLASK_API_BASE = "https://1grabintel.pythonanywhere.com"  # your running Flask app
 # FLASK_API_BASE = "http://127.0.0.1:5000"  # your running Flask app
-
+FLASK_API_BASE = "https://home-value-api.onrender.com"
 
 st.set_page_config(layout="wide")
 
